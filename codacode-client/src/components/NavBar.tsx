@@ -1,8 +1,8 @@
 import "../styles/NavBar.css";
-
+import "../styles/main.css";  
 function NavBar() {
   return (
-    <nav className="container">
+    <nav className="full-container">
       <div className="nav-content">
         <div className="logo-and-links">
           <a className="home-logo" href="/">
