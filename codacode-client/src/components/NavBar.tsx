@@ -1,8 +1,10 @@
 import "../styles/NavBar.css";
-import "../styles/main.css";  
+import MobileNavButton from "./MobileNavButton";
+
 function NavBar() {
   return (
     <nav className="full-container">
+
       <div className="nav-content">
         <div className="logo-and-links">
           <a className="home-logo" href="/">
@@ -22,6 +24,9 @@ function NavBar() {
           </a>
         </div>
       </div>
+
+      <MobileNavButton />
+
     </nav>
   );
 }

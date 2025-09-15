@@ -179,6 +179,12 @@ button,
   -webkit-appearance: button;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+}
+
 /**
  * Remove the inner border and padding in Firefox.
  */

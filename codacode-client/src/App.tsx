@@ -1,5 +1,5 @@
 import "./styles/Normalize.css";
-import "./styles/main.css";
+import "./styles/Main.css";
 
 import NavBar from "./components/NavBar";
 

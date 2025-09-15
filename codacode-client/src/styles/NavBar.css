@@ -29,6 +29,7 @@ nav {
 .logo-and-links .links-list a {
     color: white;
     transition: color 0.2s ease-in-out;
+    margin-right: 10px;
 }
 .links-list {
     width: 40%;
@@ -36,9 +37,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
 }
-.links-list a {
-    margin-right: 10px;
-}
+
 .links-list a:hover {
     color: #0cb64a; 
 }
