@@ -4,7 +4,6 @@ import MobileNavButton from "./MobileNavButton";
 function NavBar() {
   return (
     <nav className="full-container">
-
       <div className="nav-content">
         <div className="logo-and-links">
           <a className="home-logo" href="/">
@@ -23,10 +22,8 @@ function NavBar() {
             Login
           </a>
         </div>
+        <MobileNavButton/>
       </div>
-
-      <MobileNavButton />
-
     </nav>
   );
 }
