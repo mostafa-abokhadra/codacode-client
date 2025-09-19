@@ -6,7 +6,7 @@
     position: relative;  
 }
 .introduction-image {
-    background-image: url('../public/imgs/0-homeLanding.webp');
+    background-image: url('/imgs/0-homeLanding.webp');
     opacity: 0.3;
     position: absolute;
     top: 0;
@@ -24,7 +24,6 @@
     padding-right: 1rem;
     text-align: center;
     position: relative;
-    z-index: 10;
 }
 .introduction-header {
     font-size: 2.25rem;
@@ -34,5 +33,6 @@
 .introduction-paragraph {
     margin-top: 1rem;
     font-size: 1.125rem;
-    line-height: 1.75rem;
+     line-height: 1.75rem; 
+    font-weight: 700;
 }
