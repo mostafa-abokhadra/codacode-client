@@ -1,0 +1,38 @@
+.introduction {
+    background-color: #22c55e;
+    color: #ffffff;
+    padding-top: 5rem;     
+    padding-bottom: 5rem;
+    position: relative;  
+}
+.introduction-image {
+    background-image: url('../public/imgs/0-homeLanding.webp');
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+}
+.introduction-text {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.introduction-header {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+}
+.introduction-paragraph {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
