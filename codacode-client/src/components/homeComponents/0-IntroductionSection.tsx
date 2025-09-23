@@ -1,4 +1,4 @@
-import '../../styles/introductionSection.css'
+import '../../styles/home/introductionSection.css'
 
 function IntroductionSection() {
 
