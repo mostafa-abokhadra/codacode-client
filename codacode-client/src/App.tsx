@@ -1,8 +1,8 @@
 import "./styles/normalize.css";
 import "./styles/main.css";
 
-import NavBar from "./components/NavBar";
-import IntroductionSection from "./components/IntroductionSection";
+import NavBar from "./components/globalComponents/0-NavBar";
+import IntroductionSection from "./components/homeComponents/0-IntroductionSection";
 
 function App() {
   return (
