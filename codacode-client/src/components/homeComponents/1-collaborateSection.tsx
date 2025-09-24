@@ -5,11 +5,11 @@ function CollaborationSection() {
 
     const imageRef = useRef(null);
     const [matches, setMatches] = useState(
-        ()=>window.matchMedia("(min-width: 768px) and (max-width: 1024px)").matches
+        ()=>window.matchMedia("(min-width: 769px) and (max-width: 1024px)").matches
     )
 
     useEffect(() => {
-        const media = window.matchMedia("(min-width: 768px) and (max-width: 1024px)")
+        const media = window.matchMedia("(min-width: 769px) and (max-width: 1024px)")
 
         media.addEventListener('change', (event) => {
             setMatches(event.matches)
