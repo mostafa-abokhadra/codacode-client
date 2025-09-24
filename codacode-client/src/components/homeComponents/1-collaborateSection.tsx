@@ -1,6 +1,21 @@
 import '../../styles/home/collaborationSection.css'
+import { useState, useRef, useEffect } from 'react';
 
 function CollaborationSection() {
+
+    const imageRef = useRef(null);
+    const [matches, setMatches] = useState(
+        ()=>window.matchMedia("(min-width: 768px) and (max-width: 1024px)").matches
+    )
+
+    useEffect(() => {
+        const media = window.matchMedia("(min-width: 768px) and (max-width: 1024px)")
+
+        media.addEventListener('change', (event) => {
+            setMatches(event.matches)
+        })
+    })
+
     return (
         <>
             <section className="collaboration">
@@ -38,11 +53,14 @@ function CollaborationSection() {
                     </div>
                     <div>
                         <img
-                            src='/imgs/1-homeFirstSection.png'
+                            ref={imageRef}
+                            src={matches?
+                                '/imgs/1-collaborate-img-media-768-1024.jpg':
+                                '/imgs/1-homeFirstSection.png'
+                            }
                             alt="Collaborate on Projects"
                             className="collaboration-img"
                         />
-                        
                     </div>
                 </div>
             </section>

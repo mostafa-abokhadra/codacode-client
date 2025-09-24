@@ -47,7 +47,7 @@
     height: 100%;
 }
 @media /*(min-width: 767px) and*/ (max-width: 1024px) {
-    .collaboration-container {
+    /* .collaboration-container {
          grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
+    } */
 }
