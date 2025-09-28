@@ -1,5 +1,5 @@
-import "../styles/navbar.css";
-import MobileNavButton from "./MobileNavButton";
+import "../../styles/global/navbar.css";
+import MobileNavButton from "./1-MobileNavButton";
 
 function NavBar() {
   return (
