@@ -1,4 +1,4 @@
-import "./styles/global/normalize.css";
+import "./styles/global/Normalize.css";
 import "./styles/global/main.css";
 
 import NavBar from "./components/globalComponents/0-NavBar";
