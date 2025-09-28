@@ -1,4 +1,4 @@
-import '../styles/humbergers-menue.css'
+import '../../styles/global/humbergers-menue.css'
 import {useState} from "react";
 
 function MobileNavButton() {

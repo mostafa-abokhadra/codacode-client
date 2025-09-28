@@ -1,14 +1,16 @@
-import "./styles/normalize.css";
-import "./styles/main.css";
+import "./styles/global/Normalize.css";
+import "./styles/global/Main.css";
 
-import NavBar from "./components/NavBar";
-import IntroductionSection from "./components/IntroductionSection";
+import NavBar from "./components/globalComponents/0-NavBar";
+import IntroductionSection from "./components/homeComponents/0-IntroductionSection";
+import CollaborationSection from "./components/homeComponents/1-collaborateSection";
 
 function App() {
   return (
     <>
       < NavBar />
       <IntroductionSection />
+      <CollaborationSection/>
     </>
   );
 }
