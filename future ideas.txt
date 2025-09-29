@@ -1,0 +1,8 @@
+        <!-- <a 
+          href="/ideasBank" class="text-gray-800 hover:text-blue-600"
+          >IdeasBank</a
+        > -->
+        <!-- <a 
+          href="/guide" class="text-gray-800 hover:text-blue-600"
+            >Guide</a
+        > -->
