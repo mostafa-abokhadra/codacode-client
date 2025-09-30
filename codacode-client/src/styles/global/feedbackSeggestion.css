@@ -1,0 +1,58 @@
+.feedback-suggestion {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 1rem;  
+  background: linear-gradient(to bottom, #f0fdf4, #000000);
+}
+
+@media (min-width: 768px) { 
+  .feedback-suggestion, .suggestion {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.feedback, .suggestion {
+  background-color: white; 
+  padding: 1.5rem;   
+  border-radius: 0.5rem;    
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -4px rgba(0, 0, 0, 0.1); 
+  text-align: center;    
+}
+.feedback-suggestion h3 {
+  font-size: 1.25rem; 
+  font-weight: 700;  
+}
+.feedback-suggestion .feedback h3 { 
+  color: #f87171;  
+}
+.feedback-suggestion .suggestion h3 {
+  color: #16a34a;
+}
+.feedback-suggestion p {
+    margin-top: 0.5rem; 
+    color: #a2a5ab; 
+}
+.feedback-suggestion a {
+  margin-top: 1rem;    
+  display: inline-block;        
+  color: #ffffff;              
+  padding: 0.75rem 1.5rem;      
+  border-radius: 0.375rem;     
+  font-size: 1.125rem;      
+  transition: background-color 0.2s ease-in-out; 
+}
+.feedback a {
+ background-color: #ef4444;
+}
+.feedback a:hover {
+  background-color: #dc2626; 
+}
+.suggestion a {
+    background-color: #16a34a;
+}
+.suggestion a:hover {
+  background-color:  #15803d;
+}
+
